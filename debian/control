@@ -1,0 +1,12 @@
+Source: ros-lunar-json-transport
+Section: misc
+Priority: extra
+Maintainer: Paul Bovbel <pbovbel@locusrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-json-msgs, ros-lunar-roscpp, ros-lunar-roslint, ros-lunar-rostest
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-json-transport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-msgpack, ros-lunar-json-msgs, ros-lunar-roscpp
+Description: JSON transport for ROS
