@@ -1,12 +1,12 @@
-Source: ros-kinetic-json-transport
+Source: ros-hotdog-json-transport
 Section: misc
 Priority: extra
 Maintainer: Paul Bovbel <pbovbel@locusrobotics.com>
-Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-json-msgs, ros-kinetic-roscpp, ros-kinetic-roslint, ros-kinetic-rostest
+Build-Depends: debhelper (>= 9.0.0), ros-hotdog-catkin, ros-hotdog-json-msgs, ros-hotdog-roscpp, ros-hotdog-roslint, ros-hotdog-rostest
 Homepage: 
 Standards-Version: 3.9.2
 
-Package: ros-kinetic-json-transport
+Package: ros-hotdog-json-transport
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, python-msgpack, ros-kinetic-json-msgs, ros-kinetic-roscpp
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-msgpack, ros-hotdog-json-msgs, ros-hotdog-roscpp
 Description: JSON transport for ROS
