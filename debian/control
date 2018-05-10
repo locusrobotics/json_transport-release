@@ -1,12 +1,12 @@
-Source: ros-hotdog-json-transport
+Source: ros-argon-json-transport
 Section: misc
 Priority: extra
 Maintainer: Paul Bovbel <pbovbel@locusrobotics.com>
-Build-Depends: debhelper (>= 9.0.0), ros-hotdog-catkin, ros-hotdog-json-msgs, ros-hotdog-roscpp, ros-hotdog-roslint, ros-hotdog-rostest
+Build-Depends: debhelper (>= 9.0.0), ros-argon-catkin, ros-argon-json-msgs, ros-argon-roscpp, ros-argon-roslint, ros-argon-rostest
 Homepage: 
 Standards-Version: 3.9.2
 
-Package: ros-hotdog-json-transport
+Package: ros-argon-json-transport
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, python-msgpack, ros-hotdog-json-msgs, ros-hotdog-roscpp
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-msgpack, ros-argon-json-msgs, ros-argon-roscpp
 Description: JSON transport for ROS

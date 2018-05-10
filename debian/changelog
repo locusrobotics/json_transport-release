@@ -1,4 +1,4 @@
-ros-hotdog-json-transport (0.0.1-0xenial) xenial; urgency=high
+ros-argon-json-transport (0.0.1-0xenial) xenial; urgency=high
 
   * Initial development (#1 <https://github.com/locusrobotics/json_transport/issues/1>)
     * Initial implementation
