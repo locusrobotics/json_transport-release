@@ -1,12 +1,12 @@
-Source: ros-hotdog-json-msgs
+Source: ros-argon-json-msgs
 Section: misc
 Priority: extra
 Maintainer: Paul Bovbel <pbovbel@locusrobotics.com>
-Build-Depends: debhelper (>= 9.0.0), ros-hotdog-catkin, ros-hotdog-message-generation
+Build-Depends: debhelper (>= 9.0.0), ros-argon-catkin, ros-argon-message-generation
 Homepage: 
 Standards-Version: 3.9.2
 
-Package: ros-hotdog-json-msgs
+Package: ros-argon-json-msgs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hotdog-message-runtime
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-argon-message-runtime
 Description: JSON ROS message
