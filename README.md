@@ -1,5 +1,7 @@
 # json_transport
 
+[![Build Status](https://travis-ci.org/locusrobotics/json_transport.svg?branch=devel)](https://travis-ci.org/locusrobotics/json_transport)
+
 Providing schemaless transport over ROS pub/sub via JSON. This is useful when schema is enforced elsewhere, or the data is truly schemaless (i.e. parameters, diagnostics).
 
 ## C++
@@ -22,10 +24,10 @@ json_transport::json_t sent = {
 };
 
 ros::NodeHandle nh;
-auto publisher = nh.advertise<json_transport::json_t>("json", 1);
+auto publisher = nh.advertise<json_transport::json_t>("json", 1, true);
 publisher.publish(sent);
 
-boost::shared_ptr<const json_transport::json_t> received = ros::topic::waitForMessage<json_transport::json_t>("json");
+auto received = ros::topic::waitForMessage<json_transport::json_t>("json");
 
 assert(*received == sent);
 ```
@@ -44,8 +46,7 @@ pub.publish(1)
 pub.publish([1, 2, 3])
 pub.publish({'a': 1, 'b': 2, 'c': 3})
 
-def callback(self, msg):
-  assert msg.data == {'a': 1, 'b': 2, 'c': 3}
+msg = rospy.wait_for_message('json', json_transport.PackedJson)
 
-json_transport.Subscriber('json', json_transport.PackedJson, callback=callback)
+assert msg.data == {'a': 1, 'b': 2, 'c': 3}
 ```
