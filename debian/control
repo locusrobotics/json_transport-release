@@ -1,12 +1,12 @@
-Source: ros-hotdog-json-transport
+Source: ros-bismuth-json-transport
 Section: misc
 Priority: extra
 Maintainer: Paul Bovbel <pbovbel@locusrobotics.com>
-Build-Depends: debhelper (>= 9.0.0), ros-hotdog-catkin, ros-hotdog-json-msgs, ros-hotdog-roscpp, ros-hotdog-roslint, ros-hotdog-rostest, ros-hotdog-rosunit
+Build-Depends: debhelper (>= 9.0.0), ros-bismuth-catkin, ros-bismuth-json-msgs, ros-bismuth-roscpp, ros-bismuth-roslint, ros-bismuth-rostest, ros-bismuth-rosunit
 Homepage: 
 Standards-Version: 3.9.2
 
-Package: ros-hotdog-json-transport
+Package: ros-bismuth-json-transport
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, python-msgpack, ros-hotdog-json-msgs, ros-hotdog-roscpp
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-msgpack, ros-bismuth-json-msgs, ros-bismuth-roscpp
 Description: JSON transport for ROS
