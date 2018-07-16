@@ -1,12 +1,12 @@
-Source: ros-hotdog-json-msgs
+Source: ros-bismuth-json-msgs
 Section: misc
 Priority: extra
 Maintainer: Paul Bovbel <pbovbel@locusrobotics.com>
-Build-Depends: debhelper (>= 9.0.0), ros-hotdog-catkin, ros-hotdog-message-generation
+Build-Depends: debhelper (>= 9.0.0), ros-bismuth-catkin, ros-bismuth-message-generation
 Homepage: 
 Standards-Version: 3.9.2
 
-Package: ros-hotdog-json-msgs
+Package: ros-bismuth-json-msgs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hotdog-message-runtime
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-bismuth-message-runtime
 Description: JSON ROS message
