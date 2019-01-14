@@ -1,3 +1,28 @@
+## json_transport (melodic) - 0.0.3-0
+
+The packages in the `json_transport` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic json_transport` on `Mon, 14 Jan 2019 20:02:59 -0000`
+
+These packages were released:
+- `json_msgs`
+- `json_transport`
+
+Version of package(s) in repository `json_transport`:
+
+- upstream repository: https://github.com/locusrobotics/json_transport.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.1`
+- catkin_pkg version: `0.4.9`
+- rosdep version: `0.13.0`
+- rosdistro version: `0.7.0`
+- vcstools version: `0.1.40`
+
+
 ## json_transport (hotdog) - 0.0.3-0
 
 The packages in the `json_transport` repository were released into the `hotdog` distro by running `/usr/local/bin/bloom-release -r hotdog json_transport -y` on `Mon, 16 Jul 2018 15:26:54 -0000`
